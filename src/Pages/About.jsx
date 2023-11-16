@@ -8,7 +8,7 @@ export default function About() {
         I was in the Air Force as an active duty member for 10 years and now I'm in the reserves.<br /> 
         I'm currently a Project Engineer for View inc. <br />
         I went to school for Electronic Engineer I have my AAS and I want to learn more about coding <br />
-        so that I can progress in my job and future endevours.
+        so that I can progress in my job and future endeavors.
         </p>
       </div>
     );
