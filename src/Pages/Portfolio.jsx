@@ -1,15 +1,37 @@
+import PasswordGen from "../assets/Images/PasswordGen.png"
+import Horiseon from "../assets/Images/Horiseon.png"
+import CodingQuiz from "../assets/Images/CodingQuiz.png"
+
 export default function Portfolio() {
     return (
       <div>
         <h1>Portfolio Page</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </p>
+    
+            <h3>Work</h3> 
+
+                 <a href="https://josephonate.github.io/Module_1_challenge/">
+                <img src={Horiseon} alt="Horiseon" />
+                </a>
+                <p>
+                    Horiseon
+                </p>                  
+           
+          
+            <a href="https://josephonate.github.io/Module_2_Challenge/">
+                <img src={PasswordGen}  alt="Password Generator"/>            
+            </a>
+            <p class="link">
+                Js Pass gen
+            </p>
+            
+         
+            <a href="https://josephonate.github.io/Quiz-using-JS/">
+                <img src={CodingQuiz} alt="Quiz challange" />
+            </a>    
+            <p class="link">
+                Web apis Quiz
+            </p>
+
       </div>
     );
   }
