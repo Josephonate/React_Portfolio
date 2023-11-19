@@ -17,7 +17,7 @@ export default function Portfolio() {
                 </p>                  
            
           
-            <a href="https://josephonate.github.io/Module_2_Challenge/">
+            <a href="https://josephonate.github.io/Module_3_Challenge/">
                 <img src={PasswordGen}  alt="Password Generator"/>            
             </a>
             <p class="link">
