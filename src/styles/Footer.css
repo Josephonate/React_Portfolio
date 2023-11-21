@@ -1,9 +1,5 @@
-.footer {
-  margin: auto;
-bottom: auto;
-
-  text-align: center;
-}
-.ul {
-    list-style: none;
+.footer-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }

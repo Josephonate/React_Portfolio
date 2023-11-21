@@ -1,38 +1,51 @@
-import PasswordGen from "../assets/Images/PasswordGen.png"
-import Horiseon from "../assets/Images/Horiseon.png"
-import CodingQuiz from "../assets/Images/CodingQuiz.png"
+import PasswordGen from "../assets/Images/PasswordGen.png";
+import Horiseon from "../assets/Images/Horiseon.png";
+import CodingQuiz from "../assets/Images/CodingQuiz.png";
+import Carousel from "react-bootstrap/Carousel";
 
 export default function Portfolio() {
-    return (
-      <div>
-        <h1>Portfolio Page</h1>
-    
-            <h3>Work</h3> 
-
-                 <a href="https://josephonate.github.io/Module_1_challenge/">
-                <img src={Horiseon} alt="Horiseon" />
-                </a>
-                <p>
-                    Horiseon
-                </p>                  
-           
-          
-            <a href="https://josephonate.github.io/Module_3_Challenge/">
-                <img src={PasswordGen}  alt="Password Generator"/>            
-            </a>
-            <p class="link">
-                Js Pass gen
-            </p>
-            
-         
-            <a href="https://josephonate.github.io/Quiz-using-JS/">
-                <img src={CodingQuiz} alt="Quiz challange" />
-            </a>    
-            <p class="link">
-                Web apis Quiz
-            </p>
-
-      </div>
-    );
-  }
-  
+  const imageStyle = {
+    display: "flex",
+    maxWidth: "100%", // Set the maximum width of the image to 100% of its container
+    maxHeight: "700px", // Set the maximum height of the image
+    margin: "auto", // Center the image horizontally
+  };
+  return (
+    <div
+      style={{
+        backgroundColor: "#EBE9E9",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "80vh",
+      }}
+    >
+      <Carousel fade data-bs-theme="dark" style={{ width: "50%" }}>
+        <Carousel.Item style={{margin: "auto"}}>
+          <a href="https://josephonate.github.io/Module_1_challenge/">
+            <img src={Horiseon} alt="Horiseon" style={imageStyle} />
+          </a>
+          <Carousel.Caption style={{ color: "black" }}>
+            <h3>Horiseon</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href="https://josephonate.github.io/Module_3_Challenge/">
+            <img src={PasswordGen} alt="Password Generator" style={imageStyle}/>
+          </a>
+          <Carousel.Caption style={{ color: "black" }}>
+            <h3>Password Generator</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href="https://josephonate.github.io/Quiz-using-JS/">
+            <img src={CodingQuiz} alt="Quiz challange" style={imageStyle}/>
+          </a>
+          <Carousel.Caption style={{ color: "black" }}>
+            <h3>Coding Quiz</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  );
+}
