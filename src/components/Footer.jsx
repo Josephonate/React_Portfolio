@@ -17,7 +17,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaSquareGithub size={30}/>
+                <FaSquareGithub size={50}/>
               </a>
             </li>
             <li className="social-icons">
@@ -27,7 +27,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin size={30}/>
+                <FaLinkedin size={50}/>
               </a>
             </li>
           </ul>

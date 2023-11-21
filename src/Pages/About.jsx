@@ -4,13 +4,14 @@ export default function About() {
   return (
     <div
       style={{
+        
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         height: "80vh",
       }}
     >
-      <Card style={{ width: "60rem" }}>
+      <Card style={{ backgroundColor: "#EAE1DF",width: "60rem" }}>
         <Card.Body>
           {/* <Card.Title>About Page</Card.Title> */}
           <Card.Text style={{ fontSize: "30px" }}>

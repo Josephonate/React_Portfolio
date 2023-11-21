@@ -1,5 +1,6 @@
 .nav-item{
 flex: auto;
-margin: auto
- 
+justify-content: space-around;
+margin: auto;
+font-size: 30px;
 }

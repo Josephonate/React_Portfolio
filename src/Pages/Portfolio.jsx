@@ -13,7 +13,6 @@ export default function Portfolio() {
   return (
     <div
       style={{
-        backgroundColor: "#EBE9E9",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -21,28 +20,38 @@ export default function Portfolio() {
       }}
     >
       <Carousel fade data-bs-theme="dark" style={{ width: "50%" }}>
-        <Carousel.Item style={{margin: "auto"}}>
+        <Carousel.Item style={{ margin: "auto" }}>
           <a href="https://josephonate.github.io/Module_1_challenge/">
             <img src={Horiseon} alt="Horiseon" style={imageStyle} />
           </a>
           <Carousel.Caption style={{ color: "black" }}>
-            <h3>Horiseon</h3>
+            <a href="https://github.com/Josephonate/Module_1_challenge">
+              <h3>Horiseon</h3>
+            </a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <a href="https://josephonate.github.io/Module_3_Challenge/">
-            <img src={PasswordGen} alt="Password Generator" style={imageStyle}/>
+            <img
+              src={PasswordGen}
+              alt="Password Generator"
+              style={imageStyle}
+            />
           </a>
           <Carousel.Caption style={{ color: "black" }}>
-            <h3>Password Generator</h3>
+            <a href="https://github.com/Josephonate/Module_3_Challenge">
+              <h3>Password Generator</h3>
+            </a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <a href="https://josephonate.github.io/Quiz-using-JS/">
-            <img src={CodingQuiz} alt="Quiz challange" style={imageStyle}/>
+            <img src={CodingQuiz} alt="Quiz challange" style={imageStyle} />
           </a>
           <Carousel.Caption style={{ color: "black" }}>
-            <h3>Coding Quiz</h3>
+            <a href="https://github.com/Josephonate/Quiz-using-JS">
+              <h3>Coding Quiz</h3>
+            </a>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
