@@ -28,3 +28,5 @@ WHEN I am presented with the Resume section<br>
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies<br>
 WHEN I view the footer<br>
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+https://shimmering-cobbler-e7d050.netlify.app/
+<img width="1269" alt="image" src="https://github.com/Josephonate/React_Portfolio/assets/131502920/376296e1-e94e-473c-8c21-f36af9b9118f">
