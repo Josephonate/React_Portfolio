@@ -1,7 +1,10 @@
+import Carousel from "react-bootstrap/Carousel";
 import PasswordGen from "../assets/Images/PasswordGen.png";
 import Horiseon from "../assets/Images/Horiseon.png";
 import CodingQuiz from "../assets/Images/CodingQuiz.png";
-import Carousel from "react-bootstrap/Carousel";
+import Weather from "../assets/Images/Weather.png";
+import JATE from "../assets/Images/JATE.png";
+import NoteTaker from "../assets/Images/NoteTaker.png";
 
 export default function Portfolio() {
   const imageStyle = {
@@ -51,6 +54,36 @@ export default function Portfolio() {
           <Carousel.Caption style={{ color: "black" }}>
             <a href="https://github.com/Josephonate/Quiz-using-JS">
               <h3>Coding Quiz</h3>
+            </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href="https://josephonate.github.io/Weather_Dashboard_app/">
+            <img src={Weather} alt="Weather Dashboard" style={imageStyle} />
+          </a>
+          <Carousel.Caption style={{ color: "black" }}>
+            <a href="https://github.com/Josephonate/Weather_Dashboard_app">
+              <h3>Weather Dashboard</h3>
+            </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href="https://text-editor-jo-1f3b00675733.herokuapp.com/">
+            <img src={JATE} alt="JATE" style={imageStyle} />
+          </a>
+          <Carousel.Caption style={{ color: "black" }}>
+            <a href="https://github.com/Josephonate/Text_Editor">
+              <h3>JATE</h3>
+            </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href="https://github.com/Josephonate/Express.js">
+            <img src={NoteTaker} alt="Note Taker" style={imageStyle} />
+          </a>
+          <Carousel.Caption style={{ color: "black" }}>
+            <a href="https://github.com/Josephonate/Express.js">
+              <h3>Note Taker</h3>
             </a>
           </Carousel.Caption>
         </Carousel.Item>
